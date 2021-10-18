@@ -1,3 +1,5 @@
+import com.amazonaws.auth.AWSCredentials;
+import com.amazonaws.auth.profile.ProfileCredentialsProvider;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 
 import java.io.IOException;
